@@ -1,0 +1,36 @@
+.ant-layout {
+  height: 100vh;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  margin: 16px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  background: url('../image/logo.png');
+  background-size: 100% 100%;
+}
+.site-layout-background {
+  background: #fff !important;
+}
+.site-layout-background > .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.mymain {
+  overflow: auto;
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
